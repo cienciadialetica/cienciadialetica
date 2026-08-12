@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ciência Dialética é uma revista digital de ensaios sobre ciência, filosofia e pensamento sistêmico.">
+    <title>Ciência Dialética — Revista Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Literata:opsz,wght@7..72,300;7..72,400;7..72,600&family=Syne:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <div class="ambient" aria-hidden="true">
+        <span class="orbit orbit-one"></span>
+        <span class="orbit orbit-two"></span>
+        <span class="planet"></span>
+    </div>
+
+    <div class="site-shell">
+        <header class="site-header">
+            <div class="brand-row">
+                <a class="brand" href="/" aria-label="Ciência Dialética — página inicial">
+                    <span class="brand-mark" aria-hidden="true"><i></i></span>
+                    <span>
+                        <strong>Ciência Dialética</strong>
+                        <small>Revista de pensamento em movimento</small>
+                    </span>
+                </a>
+                <span class="edition-label">Edição inaugural · digital</span>
+            </div>
+
+            <div class="intro-grid">
+                <div class="eyebrow">Ciência · Filosofia · Totalidade</div>
+                <h1>Ideias para observar<br><em>o mundo em relação.</em></h1>
+                <p>Ensaios acessíveis sobre os vínculos entre natureza, sociedade, tecnologia e conhecimento.</p>
+            </div>
+
+            <nav class="tab-nav" aria-label="Seções da revista">
+                <div class="tab-list" role="tablist" aria-label="Conteúdo por seção">
+                    <a class="tab-link active" id="tab-edicao" role="tab" aria-selected="true" aria-controls="painel-edicao" data-tab="edicao" href="?aba=edicao">Edição atual</a>
+                    <a class="tab-link" id="tab-cosmologia" role="tab" aria-selected="false" aria-controls="painel-cosmologia" data-tab="cosmologia" href="?aba=cosmologia">Cosmologia</a>
+                    <a class="tab-link" id="tab-epistemologia" role="tab" aria-selected="false" aria-controls="painel-epistemologia" data-tab="epistemologia" href="?aba=epistemologia">Epistemologia</a>
+                    <a class="tab-link" id="tab-sistemas" role="tab" aria-selected="false" aria-controls="painel-sistemas" data-tab="sistemas" href="?aba=sistemas">Sistemas complexos</a>
+                    <a class="tab-link" id="tab-ia" role="tab" aria-selected="false" aria-controls="painel-ia" data-tab="ia" href="?aba=ia">Futuro &amp; IA</a>
+                    <a class="tab-link" id="tab-sobre" role="tab" aria-selected="false" aria-controls="painel-sobre" data-tab="sobre" href="?aba=sobre">Sobre</a>
+                </div>
+            </nav>
+        </header>
+
+        <main id="conteudo" class="home-content">
+            <section class="tab-panel active" id="painel-edicao" role="tabpanel" aria-labelledby="tab-edicao" data-panel="edicao">
+                <div class="section-heading">
+                    <div>
+                        <span class="section-number">01</span>
+                        <p class="kicker">Edição atual</p>
+                        <h2>O primeiro movimento</h2>
+                    </div>
+                    <p>Esta edição abre a revista olhando para o Sistema Solar como uma rede dinâmica, e não como uma coleção de corpos isolados.</p>
+                </div>
+
+                <article class="featured-story">
+                    <a class="story-visual" href="/artigos/saturno-e-a-terra/" aria-label="Ler Saturno e a Terra">
+                        <span class="saturn" aria-hidden="true"><i></i></span>
+                        <span class="visual-caption">Sistema Solar · Ensaio 001</span>
+                    </a>
+                    <div class="story-copy">
+                        <div class="story-meta"><span>Cosmologia &amp; dialética</span><span>Leitura de 5 min</span></div>
+                        <h3><a href="/artigos/saturno-e-a-terra/">Saturno e a Terra: uma análise matricial dialética, sistêmica e relacional</a></h3>
+                        <p>Uma leitura sobre como a influência de Saturno emerge de uma rede gravitacional maior — contraditória, dinâmica e decisiva para a arquitetura do Sistema Solar.</p>
+                        <a class="read-link" href="/artigos/saturno-e-a-terra/">Ler o artigo completo <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <div class="development-note">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    <div>
+                        <strong>A revista está em fase de criação.</strong>
+                        <p>Novos ensaios, autores e recursos editoriais entram gradualmente. As abas já apresentam a estrutura planejada para acompanhar essa evolução.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-panel" id="painel-cosmologia" role="tabpanel" aria-labelledby="tab-cosmologia" data-panel="cosmologia" hidden>
+                <div class="section-heading compact">
+                    <div><span class="section-number">02</span><p class="kicker">Arquivo temático</p><h2>Cosmologia</h2></div>
+                    <p>Relações entre matéria, movimento e as grandes estruturas do universo.</p>
+                </div>
+                <div class="archive-grid">
+                    <article class="archive-card published">
+                        <span class="card-index">Publicado · 001</span>
+                        <h3><a href="/artigos/saturno-e-a-terra/">Saturno e a Terra</a></h3>
+                        <p>Uma análise matricial, sistêmica e relacional do papel gravitacional de Saturno.</p>
+                        <a class="read-link" href="/artigos/saturno-e-a-terra/">Abrir artigo <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="archive-card building"><span class="card-index">Em criação · 002</span><h3>Contradições do vácuo quântico</h3><p>Ensaio em desenvolvimento para uma próxima edição.</p></article>
+                </div>
+            </section>
+
+            <section class="tab-panel" id="painel-epistemologia" role="tabpanel" aria-labelledby="tab-epistemologia" data-panel="epistemologia" hidden>
+                <div class="empty-section"><span class="section-number">03</span><p class="kicker">Epistemologia</p><h2>Conhecer também é transformar.</h2><p>Esta aba está em fase de criação. Aqui serão publicados textos sobre método, verdade, linguagem e os limites históricos do conhecimento científico.</p><span class="construction-label">Conteúdo editorial em preparação</span></div>
+            </section>
+
+            <section class="tab-panel" id="painel-sistemas" role="tabpanel" aria-labelledby="tab-sistemas" data-panel="sistemas" hidden>
+                <div class="empty-section"><span class="section-number">04</span><p class="kicker">Sistemas complexos</p><h2>O todo modifica as partes.</h2><p>Esta aba está em fase de criação. Reunirá ensaios sobre emergência, redes, caos, organização e interdependência.</p><span class="construction-label">Conteúdo editorial em preparação</span></div>
+            </section>
+
+            <section class="tab-panel" id="painel-ia" role="tabpanel" aria-labelledby="tab-ia" data-panel="ia" hidden>
+                <div class="empty-section"><span class="section-number">05</span><p class="kicker">Futuro &amp; inteligência artificial</p><h2>Técnica, poder e possibilidade.</h2><p>Esta aba está em fase de criação. O espaço abordará inteligência artificial, automação e os conflitos sociais produzidos pelas novas tecnologias.</p><span class="construction-label">Conteúdo editorial em preparação</span></div>
+            </section>
+
+            <section class="tab-panel" id="painel-sobre" role="tabpanel" aria-labelledby="tab-sobre" data-panel="sobre" hidden>
+                <div class="about-grid">
+                    <div><span class="section-number">06</span><p class="kicker">Sobre o projeto</p><h2>Uma revista aberta ao processo.</h2></div>
+                    <div class="about-copy"><p>A Ciência Dialética nasce como uma publicação digital dedicada a interpretações sistêmicas, relacionais e críticas da ciência.</p><p>O projeto ainda está em fase de criação. A estrutura, a identidade editorial e o acervo crescem junto com cada nova publicação, mantendo visível esse processo de construção.</p></div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>Ciência Dialética · Projeto editorial aberto</p>
+            <a href="/artigos/saturno-e-a-terra/">Primeiro artigo publicado</a>
+        </footer>
+    </div>
+</body>
+</html>
